@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap Starter</title>
   <meta charset="utf-8">
@@ -9,9 +10,155 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="#">Happy Plants</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="cat.html">Cat </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="dog.html">Dog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <body>
+
+  <div class="btn-group" role="group" aria-label="dropdown">
+    <button id="Button1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Dropdown button
+    </button>
+
+    <div class="dropdown-menu  aria-labelledby=" Button1>
+      <a class="dropdown-item" href="cat.html">Cat</a>
+      <a class="dropdown-item" href="dog.html">Dog</a>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+
+    <form>
+      <div class="form-group">
+        <label for="InputEmail1" class="bg-primary text-white">Email address</label>
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-4">
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="InputPassword1" class="bg-primary text-white">Plant</label>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="InputPassword1" placeholder="Enter your plant">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+
+  <div class="container mt-5">
+
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/NASTURTIUM.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Nasturtium</h5>
+            <p class="card-text">Nasturtium (/nəˈstɜːrʃəm/) is a genus of seven plant species in the family Brassicaceae
+              (cabbage family), best known for the edible watercresses Nasturtium microphyllum (Rorippa microphylla) and
+              Nasturtium officinale (R. nasturtium-aquaticum). Nasturtium was previously synonymised with Rorippa, but
+              molecular evidence supports its maintenance as a distinct genus more closely related to Cardamine than to
+              Rorippa sensu stricto (Al-Shehbaz & Price, 1998; Al-Shehbaz, Beilstein & Kellogg, 2006). Watercress or
+              yellowcress is a common name for plants in this genus.These plants are related to garden cress and mustard, noteworthy for a peppery, tangy (pungent) flavor. The
+              name Nasturtium comes from the Latin nasus tortus, meaning "twisted nose", in reference to the effect on the
+              nasal passages of eating the plants. Nasturtium foliage is used as food by the caterpillars of certain
+              Lepidoptera, including Orthonama obstipata (The Gem).One species, Nasturtium gambellii, is a federally listed in California as an endangered species in the United
+              States.</p>
+          </div>
+          <div class="card-body">
+            <div class="btn-group" role="group" aria-label="Second group">
+              <a href="https://en.wikipedia.org/wiki/Nasturtium_(genus)"><button type="button" class="btn btn-warning">Read More</button></a>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/Eastern Cottonwood.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Eastern Cottonwood</h5>
+            <p class="card-text">Timber: The wood of eastern cottonwood is light, soft, and weak. 
+              It is not durable, warps badly in drying, and is difficult to season. 
+              It is used principally for containers, interior parts of furniture, 
+              corestock in plywood, and high-grade pulp.</p>
+          </div>
+          <div class="card-body">
+            <div class="btn-group" role="group" aria-label="Second group">
+              <a href="https://www.google.com/search?q=eastern+cottonwood+uses&rlz=1C1GCEA_enUS936US936&oq=eastern+Cottonwood+uses&aqs=chrome.0.0j0i22i30j0i390.7192j0j7&sourceid=chrome&ie=UTF-8"><button type="button" class="btn btn-warning">Read More</button></a>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Images/american_elms.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Radiata Pine</h5>
+            <p class="card-text">Radiata pine lumber has a wide variety of uses including furniture, 
+              cabinets and millwork, as well as for paneling. It is widely used for building and 
+              structural applications, including glue-laminated beams and engineered trusses. 
+              It can be easily pressure treated and used in exterior environments</p>
+          </div>
+          <div class="card-body">
+            <div class="btn-group" role="group" aria-label="Second group">
+              <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk025r0QQZbQxH62xnw0mcTgT-bqAqQ%3A1614217002374&ei=Kv82YIO2FpDWtAb_8Z-4DQ&q=radiata+pine+uses&oq=radiata+pine+uses&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoECCMQJzoFCAAQkQI6BAgAEEM6BQgAELEDOgcILhCxAxBDOggILhCxAxCDAToHCAAQsQMQQzoICAAQsQMQgwE6CAguEMcBEK8BOggILhCxAxCTAjoFCC4QsQM6BwgAEIcCEBQ6AgguUK7aDlj8_w5g1IEPaAJwAngAgAHrBYgBvziSAQkzLTEuMC42LjSYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=gws-wiz&ved=0ahUKEwiD85D48oPvAhUQK80KHf_4B9cQ4dUDCA0&uact=5"><button type="button" class="btn btn-warning">Read More</button></a>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    
+  </div>
 
 
 
 </body>
+
 </html>
